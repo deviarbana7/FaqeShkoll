@@ -1,0 +1,67 @@
+.custom-header {
+  background-color: #2ecc71;
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+}
+#logo {
+  width: 100px;
+  height: auto;
+}
+nav a {
+  text-decoration: none;
+  background-color: #3498db;
+  color: black;
+  padding: 15px 12px;
+  margin: 5px;
+  transition: color 0.1s;
+}
+nav a:hover {
+  color: red;
+  background-color: lightblue;
+}
+body {
+  background-color: #f5f5f5;
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  margin: 20px;
+}
+h1 {
+  color: #333;
+  font-size: 2em;
+}
+table {
+  border-collapse: collapse;
+  width: 100%;
+  margin-top: 20px;
+}
+
+table,
+th {
+  border: 1px solid #3498db;
+}
+
+th,
+td {
+  padding: 10px;
+  text-align: left;
+}
+th {
+  background-color: #3498db;
+  color: #fff;
+}
+#canva {
+  display: flex;
+  margin: 5px;
+  padding-left: 90px;
+}
+h4 {
+  color: #2ecc71;
+}
+ul {
+  margin-left: 20px;
+  color: #333;
+  padding-left: 10px;
+}
